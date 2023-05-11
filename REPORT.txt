@@ -1,0 +1,20 @@
+Created a Django project with "base" app for handling books and "frontend" app for handling the frontend.
+
+Created a PostgreSQL database and configured it in settings.py to use with the project.
+
+Created a model for books and ran migrations to create the database tables.
+    python manage.py makemigrations
+    python manage.py migrate
+
+Created views and serializers to implement the CRUD functionality for the books resource.
+
+Used Bootstrap and CSS to create front-end for using API .
+
+Used JavaScript and AJAX to handle client-side functionality for the front-end.
+
+Tested the API using Postman and it is returning the correct Response.
+        List-Books : /book-list/
+        Create : /book-create/
+        Read : /book-view/<int:pk>/
+        Update : /book-update/<int:pk>/
+        Delete : /book-delete/<int:pk>/
