@@ -17,6 +17,8 @@
     ```
 5. Run the server
   `` python manage.py runserver ``
+
+Please Setup your own local postgres database
     
 ## API OPERATIONS
 ```
